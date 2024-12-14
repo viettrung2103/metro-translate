@@ -21,6 +21,7 @@ def translate():
     return jsonify({'translation': translation})
 
 if __name__ == '__main__':
+    ## might need to uncomment this if running into issues on Windows, in order to run in different platforms
     # freeze_support()
     translator = load_translator()
     app.run(debug=True)
