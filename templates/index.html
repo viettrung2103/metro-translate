@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script defer src="{{ url_for('static', filename='scripts.js') }}"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>English to Finnish Translator</h1>
+    <textarea id="input-text" placeholder="Enter English text here..." autocomplete="off"></textarea>
+    <button id="translate-btn">Translate</button>
+    <textarea id="output-text" placeholder="Finnish translation will appear here..." autocomplete="off" readonly></textarea>
+  </div>
+</body>
+
+</html>
