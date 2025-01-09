@@ -14,5 +14,5 @@
 - cd to this repository's folder in your machine.
 - Run the followings commands in the terminal
   - `pip install -r requirements.txt`
-  - `python.py`
+  - `python app.py`
 
